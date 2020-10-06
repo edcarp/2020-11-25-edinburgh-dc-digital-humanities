@@ -43,7 +43,7 @@ flavor: "python"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "CAHSS Digital Humanities Data Carpentry"
+title: "Data Carpentry Digital Humanities"
 
 
 #------------------------------------------------------------
