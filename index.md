@@ -19,8 +19,8 @@ email: ["matt.hamilton@ed.ac.uk"]    # boxed, comma-separated list of contact em
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
-# TODO:
-- Add NOETABLE to Setup (custom page)
+<!-- # TODO:
+- Add NOETABLE to Setup (custom page) -->
 
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
