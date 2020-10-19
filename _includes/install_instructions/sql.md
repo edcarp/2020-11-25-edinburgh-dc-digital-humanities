@@ -1,4 +1,4 @@
-## SQL
+### SQL
 
 * SQL is a specialized programming language used with databases.  We
 use a simple database manager called [SQLite](http://www.sqlite.org/)

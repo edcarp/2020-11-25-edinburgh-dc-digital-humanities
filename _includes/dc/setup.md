@@ -67,6 +67,7 @@ Humanities workshops
 {% endcomment %}
 
 {% elsif site.curriculum == "dc-humanities" %}
+
 {% include install_instructions/setup-python-workshop.md %}
 
 {% else %}

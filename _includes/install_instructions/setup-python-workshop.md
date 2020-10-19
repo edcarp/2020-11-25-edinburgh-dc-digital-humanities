@@ -1,9 +1,4 @@
----
-layout: page
-title: Setup for Python workshop
----
-
-# Overview
+### Overview
 
 This workshop is designed to be run on your laptop.
 First, you will need to download the data we use in the workshop.
@@ -11,7 +6,7 @@ Then, you need to install some software.
 After following the instructions on this
 page, you should have everything you need to participate fully in the workshop!
 
-## Data
+### Data
 
 You can download all of the data used in this workshop by clicking
 [this download link](https://ndownloader.figshare.com/articles/6262019/versions/4). The file is 206 KB.
@@ -23,7 +18,7 @@ application).
 For a full description of the data used in this workshop see the [data page](data).
 
 
-## Software
+### Software
 
 | Software            | Install                                                | Manual                                                                  | Available for         | Description                                      |
 | ------------------- | ------------------------------------------------------ | ----------------------------------------------------------------------- | --------------------- | ------------------------------------------------ |
@@ -36,14 +31,8 @@ For a full description of the data used in this workshop see the [data page](dat
 
 {% include install_instructions/openrefine.md  %}
 
-{% include install_instructions/python.md %}
+{% include install_instructions/python-noteable.md %}
 
 {% include install_instructions/sql.md %}
-
-{% include install_instructions/python-noteable.html %}
-
-{% include install_instructions/openrefine.html %}
-
-{% include install_instructions/sql.html %}
 
 Congratulations! You are now ready for the workshop!
