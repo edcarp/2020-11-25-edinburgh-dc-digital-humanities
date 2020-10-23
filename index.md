@@ -97,6 +97,8 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+* A markdown unordered list which will be replaced with the ToC, excluding the "Contents header" from above
+{:toc}
 
 <h2 id="general">General Information</h2>
 
