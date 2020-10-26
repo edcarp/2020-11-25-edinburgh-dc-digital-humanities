@@ -15,9 +15,8 @@ Clicking the download link will automatically download all of the files to your 
 (`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder
 application).
 
-The data for this lesson is a part of the Data Carpentry Humanities workshop. It is a teaching version of the EEBO/TCP metadata catalogue. The data in this lesson is a subset of the teaching version that has been intentionally ‘messed up’ for this lesson.
+The data for this lesson is a part of the Data Carpentry Humanities workshop. It is a teaching version of the [EEBO](https://quod.lib.umich.edu/e/eebogroup/)/TCP metadata catalogue. The data in this lesson is a subset of the teaching version that has been intentionally ‘messed up’ for this lesson.
 
-For a full description of the EBBO data used in this workshop see the [data page](https://quod.lib.umich.edu/e/eebogroup/).
 
 
 ### Software
