@@ -51,7 +51,7 @@ A list of shortcuts for common Zoom functions you will use during the workshop.
 | ------------------------------- | -------------------------------------- | -------------------------------------------- |
 | Mute/unmute audio               | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>A</kbd> | <kbd>Alt</kbd>+<kbd>A</kbd>                  |
 | Start/stop video                | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>V</kbd> | <kbd>Alt</kbd>+<kbd>V</kbd>                  |
-| Start/stop screen share         | <kbd>⌘+<kbd>⇧</kbd>+<kbd>S</kbd>       | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> |
+| Start/stop screen share         | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>S</kbd>       | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> |
 | Display/hide participants panel | <kbd>⌘</kbd>+<kbd>U</kbd>              | <kbd>Alt</kbd>+<kbd>U</kbd>                  |
 | Show/hide in-meeting chat panel | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>H</kbd> | <kbd>Alt</kbd>+<kbd>H</kbd>                  |
 | Raise hand/lower hand           | <kbd>⌥</kbd>+<kbd>Y</kbd>              | <kbd>Alt</kbd>+<kbd>Y</kbd>                  |
