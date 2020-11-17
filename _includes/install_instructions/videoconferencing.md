@@ -42,3 +42,17 @@ if you do not use Zoom
   </ul>
   This <a href="https://carpentries.org/blog/2020/06/online-workshop-logistics-and_screen-layouts/" target="_blank">blog post</a> includes detailed information on how to set up your screen to follow along during the workshop.
 </p>
+
+#### Helpful Shortcuts
+
+A list of shortcuts for common Zoom functions you will use during the workshop.
+
+| Function                        | mac                                    | windows                                      |
+| ------------------------------- | -------------------------------------- | -------------------------------------------- |
+| Mute/unmute audio               | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>A</kbd> | <kbd>Alt</kbd>+<kbd>A</kbd>                  |
+| Start/stop video                | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>V</kbd> | <kbd>Alt</kbd>+<kbd>V</kbd>                  |
+| Start/stop screen share         | <kbd>⌘+<kbd>⇧+<kbd>S</kbd>             | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> |
+| Display/hide participants panel | <kbd>⌘</kbd>+<kbd>U</kbd>              | <kbd>Alt</kbd>+<kbd>U</kbd>                  |
+| Show/hide in-meeting chat panel | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>H</kbd> | <kbd>Alt</kbd>+<kbd>H</kbd>                  |
+| Raise hand/lower hand           | <kbd>⌥</kbd>+<kbd>Y</kbd>              | <kbd>Alt</kbd>+<kbd>Y</kbd>                  |
+| Enter or exit full screen       | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>F</kbd> | <kbd>Alt</kbd>+<kbd>F</kbd>                  |
