@@ -8,7 +8,7 @@ page, you should have everything you need to participate fully in the workshop!
 
 ### Data
 
-[The data required is contained in this link to a `.zip` file]({{sire.url}}/data/data.zip)
+[The data required is contained in this link to a `.zip` file](https://edcarp.github.io/2020-11-25-edinburgh-dc-digital-humanities/data/data.zip)
 
 This will automatically download all of the files to your default download directory as a single compressed
 (`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder application).
