@@ -1,4 +1,4 @@
-### Overview
+·### Overview
 
 This workshop is designed to be run on your laptop.
 First, you will need to download the data we use in the workshop.
@@ -8,7 +8,7 @@ page, you should have everything you need to participate fully in the workshop!
 
 ### Data
 
-[The data required is contained in this link to a `.zip` file](https://github.com/edcarp/2020-11-25-edinburgh-dc-digital-humanities/releases/download/0.1.0/data.zip)
+[The data required is contained in this link to a `.zip` file]({{sire.url}}/data/data.zip)
 
 This will automatically download all of the files to your default download directory as a single compressed
 (`.zip`) file. To expand this file, double click the folder icon in your file navigator application (for Macs, this is the Finder application).
