@@ -1,4 +1,4 @@
-·### Overview
+### Overview
 
 This workshop is designed to be run on your laptop.
 First, you will need to download the data we use in the workshop.
