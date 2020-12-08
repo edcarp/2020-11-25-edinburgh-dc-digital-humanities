@@ -1,101 +1,156 @@
-Welcome to The Carpentries Etherpad!\
-\
+Welcome to The Carpentries Etherpad!
+
+
+
 This pad is synchronized as you type, so that everyone viewing this page
 sees the same text. This allows you to collaborate seamlessly on
-documents.\
-\
+documents.
+
+
+
 Use of this service is restricted to members of The Carpentries
 community; this is not for general purpose use (for that, try
-<https://etherpad.wikimedia.org)>.\
-\
+<https://etherpad.wikimedia.org)>.
+
+
+
 Users are expected to follow our code of conduct:
-<https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html>\
-\
+<https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html>
+
+
+
 All content is publicly available under the Creative Commons Attribution
-License: <https://creativecommons.org/licenses/by/4.0/>\
-\
- \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\
+License: <https://creativecommons.org/licenses/by/4.0/>
+
+
+
+ 
+-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--\
 \
 
 # Workshop Webpage
 
-\
-<https://edcarp.github.io/2020-11-25-edinburgh-dc-digital-humanities/>\
-\
+
+
+<https://edcarp.github.io/2020-11-25-edinburgh-dc-digital-humanities/>
+
+
+
 
 # Code of Conduct
 
-\
-<https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html>\
-\
+
+
+<https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html>
+
+
+
 
 # Post-workshop survey
 
-\
-[[https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYbJksOTKjv5Nsdenk5ny0NNUQVZTUk1MS0c3T0JUWENPMlBPMTJLQjJSTC4u]{.underline}](https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYbJksOTKjv5Nsdenk5ny0NNUQVZTUk1MS0c3T0JUWENPMlBPMTJLQjJSTC4u)\
-\
-\
-\
-\
-\
+
+
+[[https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYbJksOTKjv5Nsdenk5ny0NNUQVZTUk1MS0c3T0JUWENPMlBPMTJLQjJSTC4u]{.underline}](https://forms.office.com/Pages/ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYbJksOTKjv5Nsdenk5ny0NNUQVZTUk1MS0c3T0JUWENPMlBPMTJLQjJSTC4u)
+
+
+
+
+
+
+
+
+
+
+
 
 ### Helpful Zoom Shortcuts
 
-\
-\
-`| Function | mac | windows |`\
-`| ------------------------------- | ----- | ----------- |`\
-`| Mute/unmute audio | ⌘+⇧+A | Alt+A |`\
-`| Start/stop video | ⌘+⇧+V | Alt+V |`\
-`| Start/stop screen share | ⌘+⇧+S | Alt+Shift+S |`\
-`| Display/hide participants panel | ⌘+U | Alt+U |`\
-`| Show/hide in-meeting chat panel | ⌘+⇧+H | Alt+H |`\
-`| Raise hand/lower hand | ⌥+Y | Alt+Y |`\
-`| Enter or exit full screen | ⌘+⇧+F | Alt+F |`\
-\
 
-\
-\
+
+
+
+| Function                        | mac   | windows     |
+| ------------------------------- | ----- | ----------- |
+| Mute/unmute audio               | ⌘+⇧+A | Alt+A       |
+| Start/stop video                | ⌘+⇧+V | Alt+V       |
+| Start/stop screen share         | ⌘+⇧+S | Alt+Shift+S |
+| Display/hide participants panel | ⌘+U   | Alt+U       |
+| Show/hide in-meeting chat panel | ⌘+⇧+H | Alt+H       |
+| Raise hand/lower hand           | ⌥+Y   | Alt+Y       |
+| Enter or exit full screen       | ⌘+⇧+F | Alt+F       |
+
+
+
+
+
+
+
 
 ## Day 1
 
-\
-\
+
+
+
+
 
 ### Data
 
-\
-<https://github.com/edcarp/2020-11-25-edinburgh-dc-digital-humanities/releases/download/0.1.0/data.zip>\
-\
+
+
+<https://github.com/edcarp/2020-11-25-edinburgh-dc-digital-humanities/releases/download/0.1.0/data.zip>
+
+
+
 
 ### Spreadsheets
 
-\
-\
+
+
+
+
 
 ## Comments on the Data
 
-\
-Mentions  of London \
-in column K (Places) need reconciled to 1  entity (London, Londini, I\'m
-in London) \
-Untidy data, eg Lots of \"London?\"\
-Blank fields under Author\
-The fields are not labelled\
+
+
+Mentions  of London 
+
+in column K (Places) need reconciled to 1  entity (London, Londini, I
+'m
+in London) 
+
+Untidy data, eg Lots of
+"London?
+"
+
+Blank fields under Author
+
+The fields are not labelled
+
 Bit of messy data. Count of places probs should have been a column with
-entries. Semicolon at Column D.\
-Column D seems to have two things slpit by semi-colon\
-Places, random spacing and London appears as \'Londini\' in one entry -
-rogue and might create havoc\
-Weird characters in title field\
+entries. Semicolon at Column D.
+
+Column D seems to have two things slpit by semi-colon
+
+Places, random spacing and London appears as
+'Londini
+' in one entry -
+rogue and might create havoc
+
+Weird characters in title field
+
 Mentions of Antwerp in Places (column K) are messy - 5 different
-variations at least.\
-My column F has been split further due to commas (libreoffice)\
-\
+variations at least.
+
+My column F has been split further due to commas (libreoffice)
+
+
+
 
 ## Dates q
 
-\
+
+
 I can\'t seem to change the \'what I typed\' - they revert back, is this
 just me?\
 It hates commas and \'th\'\
@@ -159,246 +214,223 @@ missed a part of the following instructions.\
    Facet/costum text facet \
    value.split (\"list delimiter\")\
    \
-   `[`\
-   `{`\
-   `"op": "core/mass-edit",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "Place",`\
-   `"expression": "value",`\
-   `"edits": [`\
-   `{`\
-   `"from": [`\
-   `"London",`\
-   `"London?"`\
-   `],`\
-   `"fromBlank": false,`\
-   `"fromError": false,`\
-   `"to": "London"`\
-   `}`\
-   `],`\
-   `"description": "Mass edit cells in column Place"`\
-   `},`\
-   `{`\
-   `"op": "core/mass-edit",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "Place",`\
-   `"expression": "value",`\
-   `"edits": [`\
-   `{`\
-   `"from": [`\
-   `"London",`\
-   `"Londini"`\
-   `],`\
-   `"fromBlank": false,`\
-   `"fromError": false,`\
-   `"to": "London"`\
-   `}`\
-   `],`\
-   `"description": "Mass edit cells in column Place"`\
-   `},`\
-   `{`\
-   `"op": "core/mass-edit",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "Place",`\
-   `"expression": "value",`\
-   `"edits": [`\
-   `{`\
-   `"from": [`\
-   `"Antverpi",`\
-   `"Antwerp"`\
-   `],`\
-   `"fromBlank": false,`\
-   `"fromError": false,`\
-   `"to": "Antverpi"`\
-   `}`\
-   `],`\
-   `"description": "Mass edit cells in column Place"`\
-   `},`\
-   `{`\
-   `"op": "core/column-split",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "STC",`\
-   `"guessCellType": true,`\
-   `"removeOriginalColumn": false,`\
-   `"mode": "separator",`\
-   `"separator": ";",`\
-   `"regex": false,`\
-   `"maxColumns": 0,`\
-   `"description": "Split column STC by separator"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "STC 2",`\
-   `"expression": "value.trim()",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column STC 2 using expression value.trim()"`\
-   `},`\
-   `{`\
-   `"op": "core/column-split",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "STC 2",`\
-   `"guessCellType": false,`\
-   `"removeOriginalColumn": false,`\
-   `"mode": "lengths",`\
-   `"fieldLengths": [`\
-   `4,`\
-   `4,`\
-   `4`\
-   `],`\
-   `"description": "Split column STC 2 by field lengths"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "STC 2 2",`\
-   `"expression": "value.trim()",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column STC 2 2 using expression value.trim()"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "Terms",`\
-   `"expression": "grel:value.replace(\"--\",\";\")",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column Terms using expression grel:value.replace(\"--\",\";\")"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "Terms",`\
-   `"expression": "grel:value.replace(\" ; \", \";\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"[\", \"\").replace(\"]\", \"\").replace(\".\", \"\")",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column Terms using expression grel:value.replace(\" ; \", \";\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"[\", \"\").replace(\"]\", \"\").replace(\".\", \"\")"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "Date",`\
-   `"expression": "value.toNumber()",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column Date using expression value.toNumber()"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [`\
-   `{`\
-   `"type": "range",`\
-   `"name": "Date",`\
-   `"expression": "value",`\
-   `"columnName": "Date",`\
-   `"from": 1539,`\
-   `"to": 1610,`\
-   `"selectNumeric": true,`\
-   `"selectNonNumeric": true,`\
-   `"selectBlank": true,`\
-   `"selectError": true`\
-   `}`\
-   `],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "STC 2 3",`\
-   `"expression": "value.toNumber()",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column STC 2 3 using expression value.toNumber()"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [`\
-   `{`\
-   `"type": "range",`\
-   `"name": "Date",`\
-   `"expression": "value",`\
-   `"columnName": "Date",`\
-   `"from": 1539,`\
-   `"to": 1610,`\
-   `"selectNumeric": true,`\
-   `"selectNonNumeric": true,`\
-   `"selectBlank": true,`\
-   `"selectError": true`\
-   `}`\
-   `],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "Page Count",`\
-   `"expression": "value.toNumber()",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column Page Count using expression value.toNumber()"`\
-   `},`\
-   `{`\
-   `"op": "core/text-transform",`\
-   `"engineConfig": {`\
-   `"facets": [`\
-   `{`\
-   `"type": "range",`\
-   `"name": "Date",`\
-   `"expression": "value",`\
-   `"columnName": "Date",`\
-   `"from": 1539,`\
-   `"to": 1610,`\
-   `"selectNumeric": true,`\
-   `"selectNonNumeric": true,`\
-   `"selectBlank": true,`\
-   `"selectError": true`\
-   `}`\
-   `],`\
-   `"mode": "row-based"`\
-   `},`\
-   `"columnName": "EEBO",`\
-   `"expression": "value.toNumber()",`\
-   `"onError": "keep-original",`\
-   `"repeat": false,`\
-   `"repeatCount": 10,`\
-   `"description": "Text transform on cells in column EEBO using expression value.toNumber()"`\
-   `}`\
-   `]`\
+
+```json
+{
+  "op": "core/mass-edit",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Place",
+  "expression": "value",
+  "edits": [{
+    "from": [
+      "London",
+      "London?"
+    ],
+    "fromBlank": false,
+    "fromError": false,
+    "to": "London"
+  }],
+  "description": "Mass edit cells in column Place"
+}, {
+  "op": "core/mass-edit",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Place",
+  "expression": "value",
+  "edits": [{
+    "from": [
+      "London",
+      "Londini"
+    ],
+    "fromBlank": false,
+    "fromError": false,
+    "to": "London"
+  }],
+  "description": "Mass edit cells in column Place"
+}, {
+  "op": "core/mass-edit",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Place",
+  "expression": "value",
+  "edits": [{
+    "from": [
+      "Antverpi",
+      "Antwerp"
+    ],
+    "fromBlank": false,
+    "fromError": false,
+    "to": "Antverpi"
+  }],
+  "description": "Mass edit cells in column Place"
+}, {
+  "op": "core/column-split",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "STC",
+  "guessCellType": true,
+  "removeOriginalColumn": false,
+  "mode": "separator",
+  "separator": ";",
+  "regex": false,
+  "maxColumns": 0,
+  "description": "Split column STC by separator"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "STC 2",
+  "expression": "value.trim()",
+  "onError": "keep-original",
+  "repeat": false,
+  "repeatCount": 10,
+  "description": "Text transform on cells in column STC 2 using expression value.trim()"
+}, {
+  "op": "core/column-split",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "STC 2",
+  "guessCellType": false,
+  "removeOriginalColumn": false,
+  "mode": "lengths",
+  "fieldLengths": [
+    4,
+    4,
+    4
+  ],
+  "description": "Split column STC 2 by field lengths"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "STC 2 2",
+  "expression": "value.trim()",
+  "onError": "keep-original",
+  "repeat": false,
+  "repeatCount": 10,
+  "description": "Text transform on cells in column STC 2 2 using expression value.trim()"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Terms",
+  "expression": "grel:value.replace(\"--\",\";\")",
+  "onError": "keep-original",
+  "repeat": false,
+  "repeatCount": 10,
+  "description": "Text transform on cells in column Terms using expression grel:value.replace(\"--\",\";\")"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Terms",
+  "expression": "grel:value.replace(\" ; \", \";\").replace(\"(\", \"\").replace(\")\", \"\").replace(\"[\", \"\").replace(\"] \"\").replace(\".\", \"\")",
+"onError": "keep-original",
+"repeat": false,
+"repeatCount": 10,
+"description": "Text transform on cells in column Terms using expression grel:value.replace(\" ; \", \";\").replace(\"(\"\").replace(\")\", \"\").replace(\"[\", \"\").replace(\"]\", \"\").replace(\".\", \"\")"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [],
+    "mode": "row-based"
+  },
+  "columnName": "Date",
+  "expression": "value.toNumber()",
+  "onError": "keep-original",
+  "repeat": false,
+  "repeatCount": 10,
+  "description": "Text transform on cells in column Date using expression value.toNumber()"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [{
+      "type": "range",
+      "name": "Date",
+      "expression": "value",
+      "columnName": "Date",
+      "from": 1539,
+      "to": 1610,
+      "selectNumeric": true,
+      "selectNonNumeric": true,
+      "selectBlank": true,
+      "selectError": true
+    }],
+    "mode": "row-based"
+  },
+  "columnName": "STC 2 3",
+  "expression": "value.toNumber()",
+  "onError": "keep-original",
+  "repeat": false,
+  "repeatCount": 10,
+  "description": "Text transform on cells in column STC 2 3 using expression value.toNumber()"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [{
+      "type": "range",
+      "name": "Date",
+      "expression": "value",
+      "columnName": "Date",
+      "from": 1539,
+      "to": 1610,
+      "selectNumeric": true,
+      "selectNonNumeric": true,
+      "selectBlank": true,
+      "selectError": true
+    }],
+    "mode": "row-based"
+  },
+  "columnName": "Page Count",
+  "expression": "value.toNumber()",
+  "onError": "keep-original",
+  "repeat": false,
+  "repeatCount": 10,
+  "description": "Text transform on cells in column Page Count using expression value.toNumber()"
+}, {
+  "op": "core/text-transform",
+  "engineConfig": {
+    "facets": [{
+      "type": "range",
+      "name": "Date",
+      "expression": "value",
+      "columnName": "Date",
+      "from": 1539,
+      "to": 1610,
+      "selectNumeric": true,
+      "selectNonNumeric": true,
+      "selectBlank": true,
+      "selectError": true
+    }],
+    "mode": "row-based"
+  },
+  "columnName": "EEBO",
+  "expression": "value.toNumber()",
+  "onError": "keep-original",
+  "repeat": false,
+  "repeatCount": 10,
+  "description": "Text transform on cells in column EEBO using expression value.toNumber()"
+}]
+```
    \
    \
    \
@@ -447,15 +479,15 @@ purposes to help newbies. I concur!\
 
 \
 \
-`| Function | mac | windows |`\
-`| -------------------------- | ---- | ------------ |`\
-`| Run Cells | ⌘+⏎ | CTRL+ENTER |`\
-`| Run Cells and Select Below | ⇧+⏎ | SHIFT+ENTER |`\
-`| Run Cells and Insert Below | ⌥+⏎ | ALT+ENTER |`\
-`| Toggle Line Numbers | ⇧+L | SHIFT+L |`\
-`| New Cell Above | a | a |`\
-`| New Cell Below | b | b |`\
-`| Delete Cell | d d | d d |`\
+| Function                   | mac | windows     |
+| -------------------------- | --- | ----------- |
+| Run Cells                  | ⌘+⏎ | CTRL+ENTER  |
+| Run Cells and Select Below | ⇧+⏎ | SHIFT+ENTER |
+| Run Cells and Insert Below | ⌥+⏎ | ALT+ENTER   |
+| Toggle Line Numbers        | ⇧+L | SHIFT+L     |
+| New Cell Above             | a   | a           |
+| New Cell Below             | b   | b           |
+| Delete Cell                | d d | d d         |
 \
 
 ### Lesson 1
@@ -562,16 +594,18 @@ General syntax:\
 ### Looping over the Beatles dictionary
 
 \
-`beatles = {'john': 'guitar', 'paul': 'bass', 'george': 'guitar', 'ringo': 'drums'}`\
-`for beatle, instrument in beatles.items():`\
-
-- `print(beatle, 'plays', instrument)`
-
+```py
+beatles = {'john': 'guitar', 'paul': 'bass', 'george': 'guitar', 'ringo': 'drums'}
+for beatle, instrument in beatles.items():
+    print(beatle, 'plays', instrument)`
+```
 \
 \
-Places = tcp_df\[\'Place\'\]\
-Num_of_Places = pd.unique(Places)\
-len(Num_of_Places)\
+```py
+Places = tcp_df['Place']
+Num_of_Places = pd.unique(Places)
+len(Num_of_Places)
+```
 \
 \
 \
@@ -618,16 +652,15 @@ Q) how many \'Unknown\' Authors are there\
 
 #### Sermons
 
-\
-`is_a_sermon = tcp_df['Terms'].str.contains('sermon', na = False)`\
-`tcp_df[is_a_sermon]`\
-`pamphlets = tcp_df['Page Count'] < 10`\
-`missing_terms = tcp_df[terms'].isna()`\
-`tcp_df[missing_terms]`\
-\
-`author_is_unknown = tcp_df['Author'].isna()`\
-`tcp_df[author_is_unknown].count()`\
-\
+```py
+is_a_sermon = tcp_df['Terms'].str.contains('sermon', na = False)
+tcp_df[is_a_sermon]
+pamphlets = tcp_df['Page Count'] < 10
+missing_terms = tcp_df["Terms"].isna()
+tcp_df[missing_terms]
+author_is_unknown = tcp_df['Author'].isna()
+tcp_df[author_is_unknown].count()
+```
 
 ## Workflow and Automation
 
@@ -651,52 +684,35 @@ Does one \'mention\' here means a sentence?\
 
 ### Sentiment Analysis Example
 
-\
-`import urllib.request, urllib.error, urllib.parse, pprint`\
-`url = "http://gutenberg.net.au/ebooks01/0100101.txt" # a website`\
-`response = urllib.request.urlopen(url) # this fetches information from a webpage`\
-`text = response.read().decode('ASCII') # this processes the response a bit, so it is`\
-
-- - - - - - - - - - - - - - - - `# text, rather than binary format`
-
-\
-`text[0:100] # to see a small portion`\
-``\
-`text.split()[0:10] # splits the text on whitespace characters`\
-\
-`words = text.split() # create a list of all words`\
-\
-`# prints each word if the word is Lighthouse`\
-`for word in words:`\
-
-- `if word == 'Lighthouse':`
-  - `print(word)`
-
-`# prints the word and its index for each occurrence of Lighthouse`\
-`for index, word in enumerate(words):`\
-
+`import urllib.request, urllib.error, urllib.parse, pprint`
+`url = "http://gutenberg.net.au/ebooks01/0100101.txt" # a website`
+`response = urllib.request.urlopen(url) # this fetches information from a webpage`
+`text = response.read().decode('ASCII') # this processes the response a bit, so it is`
+`# text, rather than binary format`
+`text[0:100] # to see a small portion`
+`text.split()[0:10] # splits the text on whitespace characters`
+`words = text.split() # create a list of all words`
+`# prints each word if the word is Lighthouse`
+`for word in words:`
+`if word == 'Lighthouse':`
+  `print(word)`
+`# prints the word and its index for each occurrence of Lighthouse`
+`for index, word in enumerate(words):`
 - `if word == 'Lighthouse':`
   - `print(index, word)`
-
-`# A different way to use this information`\
-`for index, word in enumerate(words):`\
-
+`# A different way to use this information`
+`for index, word in enumerate(words):`
 - `if word == 'Lighthouse':`
   - `print(words[index])`
-
-`# Grabbing some context around each occurrence of Lighthouse`\
-`for index, word in enumerate(words):`\
-
-- `if word == 'Lighthouse':`
-  - `print(words[index - 1:index + 2])`
-
-`# Collecting the bits of text`\
-`lighthouse = []`\
-\
-`for index, word in enumerate(words):`\
-
-- `if word == 'Lighthouse':`
-  - `lighthouse.append(words[index - 4:index + 5])`
+`# Grabbing some context around each occurrence of Lighthouse`
+`for index, word in enumerate(words):`
+`if word == 'Lighthouse':`
+    `print(words[index - 1:index + 2])`=
+`# Collecting the bits of text`
+`lighthouse = []`
+`for index, word in enumerate(words):`
+`if word == 'Lighthouse':`
+    `lighthouse.append(words[index - 4:index + 5])`
 
 ### Normalising text
 
@@ -723,13 +739,29 @@ Does one \'mention\' here means a sentence?\
 ### Grand Solution w/ Pretty Printing
 
 \
-`import urllib.request, urllib.error, urllib.parse, pprint`\
-`` \ `url = "http://gutenberg.net.au/ebooks01/0100101.txt"`\ `response = urllib.request.urlopen(url)`\ `text = response.read()`\ `words = [word.decode('ASCII') for word in text.split()]`\ ``\
-`lighthouse = []`\
-`` \ `for index, word in enumerate(words):`\ ` if 'lighthouse' in word.lower():`\ ` if 'Virginia' not in words[index - 3:index + 4]:`\ ` lighthouse.append(" ".join(words[index - 3:index + 4])) `\ ` `\ `max_characters = max([s.find('Lighthouse') for s in lighthouse])`\ ``\
-`for phrase in lighthouse:`\
-`pad = max_characters - phrase.find('Lighthouse')`\
-`print(" " * pad, phrase)`\
+```py
+import urllib.request, urllib.error, urllib.parse, pprint
+
+url = "http://gutenberg.net.au/ebooks01/0100101.txt"
+response = urllib.request.urlopen(url)
+text = response.read()
+words = [word.decode('ASCII') for word in text.split()]
+
+
+lighthouse = []
+
+for index, word in enumerate(words):
+    if 'lighthouse' in word.lower():
+        if 'Virginia' not in words[index - 3:index + 4]:
+            lighthouse.append(" ".join(words[index - 3:index + 4]))
+
+max_characters  = max([s.find('Lighthouse') for s in lighthouse])
+
+for phrase in lighthouse:
+    pad = max_characters - phrase.find('Lighthouse')
+    print(" " * pad, phrase)
+
+```
 \
 
 ## Feedback
@@ -791,31 +823,40 @@ instead?\
 
 \
 \
-`| Function | mac | windows |`\
-`| -------------------------- | ---- | ------------ |`\
-`| Run Cells | ⌘+⏎ | CTRL+ENTER |`\
-`| Run Cells and Select Below | ⇧+⏎ | SHIFT+ENTER |`\
-`| Run Cells and Insert Below | ⌥+⏎ | ALT+ENTER |`\
-`| Toggle Line Numbers | ⇧+L | SHIFT+L |`\
-`| New Cell Above | a | a |`\
-`| New Cell Below | b | b |`\
-`| Delete Cell | d d | d d |`\
+| Function                   | mac | windows     |
+| -------------------------- | --- | ----------- |
+| Run Cells                  | ⌘+⏎ | CTRL+ENTER  |
+| Run Cells and Select Below | ⇧+⏎ | SHIFT+ENTER |
+| Run Cells and Insert Below | ⌥+⏎ | ALT+ENTER   |
+| Toggle Line Numbers        | ⇧+L | SHIFT+L     |
+| New Cell Above             | a   | a           |
+| New Cell Below             | b   | b           |
+| Delete Cell                | d d | d d         |
 \
 \
 
 ### Bokeh
 
-\
-<https://docs.bokeh.org/en/latest/docs/reference/plotting.html?highlight=y_axis_label#bokeh.plotting.figure>\
-`` \ `from bokeh.plotting import figure, output_file, show, save `\ `from bokeh.io import output_notebook `\ `import pandas as pd `\ `output_notebook() `\ ``\
-`# create a space to hold our plots`\
-`line_plot = figure(plot_width 600, plot_height = 400)`\
-`` \ `# create some data for the points`\ `x = [0, 1, 2, 3]`\ `y1 = [101, 60, 80, 10]`\ `y2 = [50, 43, 72, 1]`\ ``\
-`# add lines to our line_plot figure object`\
-`line_plot.line(x, y1)`\
-`line_plot.line(x, y2)`\
-`` \ `# add circular emphasis points on the points from y1`\ `line_plot.circle(x, y1)`\ \ `# tells the notebook to display the line_plot figure`\ `show(line_plot)`\ ``\
-``\
+
+
+<https://docs.bokeh.org/en/latest/docs/reference/plotting.html?highlight=y_axis_label#bokeh.plotting.figure>
+```py
+from bokeh.plotting import figure, output_file, show, save
+from bokeh.io import output_notebook
+import pandas as pd
+output_notebook()
+# create a space to hold our plots
+line_plot = figure(plot_width 600, plot_height = 400)
+# create some data for the points
+x = [0, 1, 2, 3]
+y1 = [101, 60, 80, 10]
+y2 = [50, 43, 72, 1]
+# add lines to our line_plot figure object
+line_plot.line(x, y1)
+line_plot.line(x, y2)
+# add circular emphasis points on the points from y1`
+line_plot.circle(x, y1) # tells the notebook to display the line_plot figure `show(line_plot)
+```
 
 ### Generating some data automatically
 
