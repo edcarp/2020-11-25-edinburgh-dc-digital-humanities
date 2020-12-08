@@ -82,6 +82,9 @@
 
     Some kind of text analysis / Natural Language Processing example in the official lesson would be beneficial. The NLP example appeared to go down well.
 
+
+- Quick Polls / Questions via etherpad was very effective.
+
 ### Cons
 
 - lessons disorganised / wrong order
