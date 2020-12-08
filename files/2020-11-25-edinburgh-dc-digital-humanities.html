@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>2020-11-25-edinburgh-dc-digital-humanities</title>
+    <meta name="generator" content="Etherpad">
+    <meta name="author" content="Etherpad">
+    <meta name="changedby" content="Etherpad">
+    <meta charset="utf-8">
+    <style>
+ol {
+  counter-reset: item;
+}
+
+ol>li {
+  counter-increment: item;
+}
+
+ol ol>li {
+  display: block;
+}
+
+ol>li {
+  display: block;
+}
+
+ol>li:before {
+  content: counters(item, ".") ". ";
+}
+
+ol ol>li:before {
+  content: counters(item, ".") ". ";
+  margin-left: -20px;
+}
+    </style>
+  </head>
+
+  <body>
+    Welcome to The Carpentries Etherpad!<br><br>This pad is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents.<br><br>Use of this service is restricted to members
+    of The Carpentries community; this is not for general purpose use (for that, try <a href="https&#x3a;&#x2F;&#x2F;etherpad&#x2e;wikimedia&#x2e;org&#x29;" rel="noreferrer noopener">https:&#x2F;&#x2F;etherpad.wikimedia.org)</a>.<br><br>Users are
+    expected to follow our code of conduct: <a href="https&#x3a;&#x2F;&#x2F;docs&#x2e;carpentries&#x2e;org&#x2F;topic&#x5f;folders&#x2F;policies&#x2F;code&#x2d;of&#x2d;conduct&#x2e;html"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;docs.carpentries.org&#x2F;topic_folders&#x2F;policies&#x2F;code-of-conduct.html</a><br><br>All content is publicly available under the Creative Commons Attribution License: <a
+      href="https&#x3a;&#x2F;&#x2F;creativecommons&#x2e;org&#x2F;licenses&#x2F;by&#x2F;4&#x2e;0&#x2F;"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by&#x2F;4.0&#x2F;</a><br><br>&nbsp;----------------------------------------------------------------------------<br><br>
+    <h1>Workshop Webpage </h1><br><a href="https&#x3a;&#x2F;&#x2F;edcarp&#x2e;github&#x2e;io&#x2F;2020&#x2d;11&#x2d;25&#x2d;edinburgh&#x2d;dc&#x2d;digital&#x2d;humanities&#x2F;"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;edcarp.github.io&#x2F;2020-11-25-edinburgh-dc-digital-humanities&#x2F;</a><br><br>
+    <h1>Code of Conduct</h1><br><a href="https&#x3a;&#x2F;&#x2F;docs&#x2e;carpentries&#x2e;org&#x2F;topic&#x5f;folders&#x2F;policies&#x2F;code&#x2d;of&#x2d;conduct&#x2e;html"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;docs.carpentries.org&#x2F;topic_folders&#x2F;policies&#x2F;code-of-conduct.html</a><br><br>
+    <h1>Post-workshop survey</h1><br><a href="https&#x3a;&#x2F;&#x2F;forms&#x2e;office&#x2e;com&#x2F;Pages&#x2F;ResponsePage&#x2e;aspx&#x3f;id&#x3d;sAafLmkWiUWHiRCgaTTcYbJksOTKjv5Nsdenk5ny0NNUQVZTUk1MS0c3T0JUWENPMlBPMTJLQjJSTC4u"
+      rel="noreferrer noopener"><u>https:&#x2F;&#x2F;forms.office.com&#x2F;Pages&#x2F;ResponsePage.aspx?id=sAafLmkWiUWHiRCgaTTcYbJksOTKjv5Nsdenk5ny0NNUQVZTUk1MS0c3T0JUWENPMlBPMTJLQjJSTC4u</u></a><br><br><br><br><br><br>
+    <h3>Helpful Zoom Shortcuts</h3><br><br><code>| Function | mac | windows |</code><br><code>| ------------------------------- | ----- | ----------- |</code><br><code>| Mute&#x2F;unmute audio | ⌘+⇧+A | Alt+A |</code><br><code>| Start&#x2F;stop video
+      | ⌘+⇧+V | Alt+V |</code><br><code>| Start&#x2F;stop screen share | ⌘+⇧+S | Alt+Shift+S |</code><br><code>| Display&#x2F;hide participants panel | ⌘+U | Alt+U |</code><br><code>| Show&#x2F;hide in-meeting chat panel | ⌘+⇧+H | Alt+H
+      |</code><br><code>| Raise hand&#x2F;lower hand | ⌥+Y | Alt+Y |</code><br><code>| Enter or exit full screen | ⌘+⇧+F | Alt+F |</code><br><br>
+    <h1></h1><br><br>
+    <h2>Day 1</h2><br><br>
+    <h3>Data</h3><br><a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;edcarp&#x2F;2020&#x2d;11&#x2d;25&#x2d;edinburgh&#x2d;dc&#x2d;digital&#x2d;humanities&#x2F;releases&#x2F;download&#x2F;0&#x2e;1&#x2e;0&#x2F;data&#x2e;zip"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;github.com&#x2F;edcarp&#x2F;2020-11-25-edinburgh-dc-digital-humanities&#x2F;releases&#x2F;download&#x2F;0.1.0&#x2F;data.zip</a><br><br>
+    <h3>Spreadsheets</h3><br><br>
+    <h2>Comments on the Data</h2><br>Mentions&nbsp; of London&nbsp;<br>in column K (Places) need reconciled to 1&nbsp; entity (London, Londini, I&#x27;m in London)&nbsp;<br>Untidy data, eg Lots of &quot;London?&quot;<br>Blank fields under
+    Author<br>The fields are not labelled<br>Bit of messy data. Count of places probs should have been a column with entries. Semicolon at Column D.<br>Column D seems to have two things slpit by semi-colon<br>Places, random spacing and London appears
+    as &#x27;Londini&#x27; in one entry - rogue and might create havoc<br>Weird characters in title field<br>Mentions of Antwerp in Places (column K) are messy - 5 different variations at least.<br>My column F has been split further due to commas
+    (libreoffice)<br><br>
+    <h2>Dates q</h2><br>I can&#x27;t seem to change the &#x27;what I typed&#x27; - they revert back, is this just me?<br>It hates commas and &#x27;th&#x27;<br>I typed 22 11 1992 (with spaces) and it came up as #VALUE!<br>When I try to type in
+    &#x27;Mar-21&#x27; then it turns into &#x27;21&#x2F;3&#x2F;2020&#x27;, not &#x27;3&#x2F;2021&#x27;. My excel auto-corrected me into DMY whenever I typed a XX-XX<br>Doesn&#x27;t recognise US format e.g. 11&#x2F;30&#x2F;2020 or 20201130<br>It
+    doesn&#x27;t recognise it at all as a date if I type &#x27;Jan-25&#x27; (libreoffice)<br>&#x27;Nov 30&#x27; is interpreted as 1930<br>&#x27;Nov 30&#x27; in my excel was corrected as &#x27;30-Nov&#x27; then into 30&#x2F;11&#x2F;2020<br><br><br>
+    <h2>Feedback</h2><br>
+    <h3>Pro</h3><br>Easy to understand and implement material. I am not sure if I will need to use Openrefine though as the data I work on are more tidy!<br>Great tool, never used it before and the workshop was thorough enough but also easy enough to
+    follow to start using it myself. I previously used R to clean data in Excel sheets and I find OpenRefine much more user friendly and accessible for the main first steps. Also super helpful that you can easily recreate your commands
+    later.<br>Thanks for great introduction, I will definitely be using OpenRefine<br><br>
+    <h3>Con</h3><br>Not really a &quot;Con&quot; just an idea, could you make commands and&#x2F;or steps to make certain changes available in a summary document? I kept writing everything down in a separate Word document and in doing so sometimes
+    missed a part of the following instructions.<br><br>
+    <h3>OpenRefine</h3><br><br>
+    <h4>Excercise 1</h4><br><br><br>
+    <h4>GREL</h4><br>1. clean the column values<br>Edit cell&nbsp;<br>value.replace( &quot;what you want to change&quot;, &quot;what you want&quot;)<br>2. do splitting of values<br>Facet&#x2F;costum text facet&nbsp;<br>value.split (&quot;list
+    delimiter&quot;)<br><br><code>[</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;mass-edit&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [],</code><br><code> &quot;mode&quot;:
+      &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;Place&quot;,</code><br><code> &quot;expression&quot;: &quot;value&quot;,</code><br><code> &quot;edits&quot;: [</code><br><code> {</code><br><code>
+      &quot;from&quot;: [</code><br><code> &quot;London&quot;,</code><br><code> &quot;London?&quot;</code><br><code> ],</code><br><code> &quot;fromBlank&quot;: false,</code><br><code> &quot;fromError&quot;: false,</code><br><code> &quot;to&quot;:
+      &quot;London&quot;</code><br><code> }</code><br><code> ],</code><br><code> &quot;description&quot;: &quot;Mass edit cells in column Place&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;:
+      &quot;core&#x2F;mass-edit&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [],</code><br><code> &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;:
+      &quot;Place&quot;,</code><br><code> &quot;expression&quot;: &quot;value&quot;,</code><br><code> &quot;edits&quot;: [</code><br><code> {</code><br><code> &quot;from&quot;: [</code><br><code> &quot;London&quot;,</code><br><code>
+      &quot;Londini&quot;</code><br><code> ],</code><br><code> &quot;fromBlank&quot;: false,</code><br><code> &quot;fromError&quot;: false,</code><br><code> &quot;to&quot;: &quot;London&quot;</code><br><code> }</code><br><code> ],</code><br><code>
+      &quot;description&quot;: &quot;Mass edit cells in column Place&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;mass-edit&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code>
+      &quot;facets&quot;: [],</code><br><code> &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;Place&quot;,</code><br><code> &quot;expression&quot;: &quot;value&quot;,</code><br><code>
+      &quot;edits&quot;: [</code><br><code> {</code><br><code> &quot;from&quot;: [</code><br><code> &quot;Antverpi&quot;,</code><br><code> &quot;Antwerp&quot;</code><br><code> ],</code><br><code> &quot;fromBlank&quot;: false,</code><br><code>
+      &quot;fromError&quot;: false,</code><br><code> &quot;to&quot;: &quot;Antverpi&quot;</code><br><code> }</code><br><code> ],</code><br><code> &quot;description&quot;: &quot;Mass edit cells in column Place&quot;</code><br><code>
+      },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;column-split&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [],</code><br><code> &quot;mode&quot;:
+      &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;STC&quot;,</code><br><code> &quot;guessCellType&quot;: true,</code><br><code> &quot;removeOriginalColumn&quot;: false,</code><br><code> &quot;mode&quot;:
+      &quot;separator&quot;,</code><br><code> &quot;separator&quot;: &quot;;&quot;,</code><br><code> &quot;regex&quot;: false,</code><br><code> &quot;maxColumns&quot;: 0,</code><br><code> &quot;description&quot;: &quot;Split column STC by
+      separator&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [],</code><br><code>
+      &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;STC 2&quot;,</code><br><code> &quot;expression&quot;: &quot;value.trim()&quot;,</code><br><code> &quot;onError&quot;:
+      &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;: 10,</code><br><code> &quot;description&quot;: &quot;Text transform on cells in column STC 2 using expression
+      value.trim()&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;column-split&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [],</code><br><code>
+      &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;STC 2&quot;,</code><br><code> &quot;guessCellType&quot;: false,</code><br><code> &quot;removeOriginalColumn&quot;:
+      false,</code><br><code> &quot;mode&quot;: &quot;lengths&quot;,</code><br><code> &quot;fieldLengths&quot;: [</code><br><code> 4,</code><br><code> 4,</code><br><code> 4</code><br><code> ],</code><br><code> &quot;description&quot;: &quot;Split
+      column STC 2 by field lengths&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;:
+      [],</code><br><code> &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;STC 2 2&quot;,</code><br><code> &quot;expression&quot;: &quot;value.trim()&quot;,</code><br><code>
+      &quot;onError&quot;: &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;: 10,</code><br><code> &quot;description&quot;: &quot;Text transform on cells in column STC 2 2 using expression
+      value.trim()&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [],</code><br><code>
+      &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;Terms&quot;,</code><br><code> &quot;expression&quot;: &quot;grel:value.replace(\&quot;--\&quot;,\&quot;;\&quot;)&quot;,</code><br><code>
+      &quot;onError&quot;: &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;: 10,</code><br><code> &quot;description&quot;: &quot;Text transform on cells in column Terms using expression
+      grel:value.replace(\&quot;--\&quot;,\&quot;;\&quot;)&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code>
+      &quot;facets&quot;: [],</code><br><code> &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;Terms&quot;,</code><br><code> &quot;expression&quot;: &quot;grel:value.replace(\&quot; ;
+      \&quot;, \&quot;;\&quot;).replace(\&quot;(\&quot;, \&quot;\&quot;).replace(\&quot;)\&quot;, \&quot;\&quot;).replace(\&quot;[\&quot;, \&quot;\&quot;).replace(\&quot;]\&quot;, \&quot;\&quot;).replace(\&quot;.\&quot;,
+      \&quot;\&quot;)&quot;,</code><br><code> &quot;onError&quot;: &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;: 10,</code><br><code> &quot;description&quot;: &quot;Text transform on
+      cells in column Terms using expression grel:value.replace(\&quot; ; \&quot;, \&quot;;\&quot;).replace(\&quot;(\&quot;, \&quot;\&quot;).replace(\&quot;)\&quot;, \&quot;\&quot;).replace(\&quot;[\&quot;, \&quot;\&quot;).replace(\&quot;]\&quot;,
+      \&quot;\&quot;).replace(\&quot;.\&quot;, \&quot;\&quot;)&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code>
+      &quot;facets&quot;: [],</code><br><code> &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;Date&quot;,</code><br><code> &quot;expression&quot;:
+      &quot;value.toNumber()&quot;,</code><br><code> &quot;onError&quot;: &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;: 10,</code><br><code> &quot;description&quot;: &quot;Text
+      transform on cells in column Date using expression value.toNumber()&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;:
+      {</code><br><code> &quot;facets&quot;: [</code><br><code> {</code><br><code> &quot;type&quot;: &quot;range&quot;,</code><br><code> &quot;name&quot;: &quot;Date&quot;,</code><br><code> &quot;expression&quot;: &quot;value&quot;,</code><br><code>
+      &quot;columnName&quot;: &quot;Date&quot;,</code><br><code> &quot;from&quot;: 1539,</code><br><code> &quot;to&quot;: 1610,</code><br><code> &quot;selectNumeric&quot;: true,</code><br><code> &quot;selectNonNumeric&quot;: true,</code><br><code>
+      &quot;selectBlank&quot;: true,</code><br><code> &quot;selectError&quot;: true</code><br><code> }</code><br><code> ],</code><br><code> &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;STC
+      2 3&quot;,</code><br><code> &quot;expression&quot;: &quot;value.toNumber()&quot;,</code><br><code> &quot;onError&quot;: &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;:
+      10,</code><br><code> &quot;description&quot;: &quot;Text transform on cells in column STC 2 3 using expression value.toNumber()&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;:
+      &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [</code><br><code> {</code><br><code> &quot;type&quot;: &quot;range&quot;,</code><br><code> &quot;name&quot;:
+      &quot;Date&quot;,</code><br><code> &quot;expression&quot;: &quot;value&quot;,</code><br><code> &quot;columnName&quot;: &quot;Date&quot;,</code><br><code> &quot;from&quot;: 1539,</code><br><code> &quot;to&quot;: 1610,</code><br><code>
+      &quot;selectNumeric&quot;: true,</code><br><code> &quot;selectNonNumeric&quot;: true,</code><br><code> &quot;selectBlank&quot;: true,</code><br><code> &quot;selectError&quot;: true</code><br><code> }</code><br><code> ],</code><br><code>
+      &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;Page Count&quot;,</code><br><code> &quot;expression&quot;: &quot;value.toNumber()&quot;,</code><br><code> &quot;onError&quot;:
+      &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;: 10,</code><br><code> &quot;description&quot;: &quot;Text transform on cells in column Page Count using expression
+      value.toNumber()&quot;</code><br><code> },</code><br><code> {</code><br><code> &quot;op&quot;: &quot;core&#x2F;text-transform&quot;,</code><br><code> &quot;engineConfig&quot;: {</code><br><code> &quot;facets&quot;: [</code><br><code>
+      {</code><br><code> &quot;type&quot;: &quot;range&quot;,</code><br><code> &quot;name&quot;: &quot;Date&quot;,</code><br><code> &quot;expression&quot;: &quot;value&quot;,</code><br><code> &quot;columnName&quot;: &quot;Date&quot;,</code><br><code>
+      &quot;from&quot;: 1539,</code><br><code> &quot;to&quot;: 1610,</code><br><code> &quot;selectNumeric&quot;: true,</code><br><code> &quot;selectNonNumeric&quot;: true,</code><br><code> &quot;selectBlank&quot;: true,</code><br><code>
+      &quot;selectError&quot;: true</code><br><code> }</code><br><code> ],</code><br><code> &quot;mode&quot;: &quot;row-based&quot;</code><br><code> },</code><br><code> &quot;columnName&quot;: &quot;EEBO&quot;,</code><br><code>
+      &quot;expression&quot;: &quot;value.toNumber()&quot;,</code><br><code> &quot;onError&quot;: &quot;keep-original&quot;,</code><br><code> &quot;repeat&quot;: false,</code><br><code> &quot;repeatCount&quot;: 10,</code><br><code>
+      &quot;description&quot;: &quot;Text transform on cells in column EEBO using expression value.toNumber()&quot;</code><br><code> }</code><br><code>]</code><br><br><br><br>
+    <h2>Feedback</h2><br>
+    <h3>Pro</h3><br>Very clear case for using Open Refine for data cleaning, simplifying operations.<br>Concur! I&#x27;m going to forget it though (GREL expressions in particular)<br><br>
+    <h3>Con</h3><br><br>Can you consider creating an illustrated pdf guide on the steps gone through today and&#x2F;or short 2-3 min screencapture video tutorials? Think these would be really useful as a refresher or for documentation purposes to
+    help newbies. I concur!<br><br>1 OpenRefine tutorial is here: <a href="https&#x3a;&#x2F;&#x2F;www&#x2e;youtube&#x2e;com&#x2F;watch&#x3f;v&#x3d;wfS1qTKFQoI"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=wfS1qTKFQoI</a><br><br>
+    <h2>Day 2 </h2><br>
+    <h3>Python</h3><br><br>
+    <h3>Noteable</h3><br><a href="https&#x3a;&#x2F;&#x2F;noteable&#x2e;edina&#x2e;ac&#x2e;uk&#x2F;login&#x2F;" rel="noreferrer noopener">https:&#x2F;&#x2F;noteable.edina.ac.uk&#x2F;login&#x2F;</a><br><br>
+    <h3>Jupyter Notebook Shortcuts</h3><br><br><code>| Function | mac | windows |</code><br><code>| -------------------------- | ---- | ------------ |</code><br><code>| Run Cells | ⌘+⏎ | CTRL+ENTER |</code><br><code>| Run Cells and Select Below | ⇧+⏎
+      | SHIFT+ENTER |</code><br><code>| Run Cells and Insert Below | ⌥+⏎ | ALT+ENTER |</code><br><code>| Toggle Line Numbers | ⇧+L | SHIFT+L |</code><br><code>| New Cell Above | a | a |</code><br><code>| New Cell Below | b | b |</code><br><code>|
+      Delete Cell | d d | d d |</code><br><br>
+    <h3>Lesson 1</h3><br><br>
+    <h3>Lists</h3><br><code>beatles = [&#x27;john&#x27;, &#x27;paul&#x27;, &#x27;george&#x27;, &#x27;ringo&#x27;]</code><br><br>
+    <h4>List slicing</h4><br><code>list[ start_index : end_index : jump ]</code><br><br>Each value is optional; if excluded, Python uses a default value.<br><br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Implication&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    |<br>| ------------------&nbsp; | ---------------------------------------------------------------------------&nbsp; |<br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; (first)&nbsp;&nbsp;&nbsp;
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; start_index is included in
+    output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    -1&nbsp;&nbsp;&nbsp; (last)&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; end_index is not included in
+    output&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |<br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;
+    (each)&nbsp;&nbsp;&nbsp; | jump is interpreted &#x27;every ___&#x27; (second, third, fourth, et cetera) |<br><br>q)<br><br>beatles[1]<br><br>
+    <ol start="1" class="number">
+      <li>&#x27;john&#x27;</li>
+      <li>&#x27;paul&#x27;********</li>
+      <li>&#x27;george</li>
+      <li>&#x27;ringo&#x27;</li>
+      <li>Error**
+    </ol><br>Q2) beatles[4]<br><br>
+    <ol start="1" class="number">
+      <li>&#x27;john&#x27;</li>
+      <li>&#x27;Paul&#x27;</li>
+      <li>&#x27;george</li>
+      <li>&#x27;ringo&#x27;</li>
+      <li>Error**********
+    </ol><br>Q3) beatles[1:3]<br><br>
+    <ol start="1" class="number">
+      <li>&#x27;john&#x27;, &#x27;paul&#x27;</li>
+      <li>&#x27;paul&#x27;,&#x27;george&#x27;********</li>
+      <li>&#x27;paul&#x27;,&#x27;george,&#x27;,&#x27;ringo&#x27;</li>
+      <li>&#x27;john&#x27;,&#x27;paul&#x27;,&#x27;george,&#x27;,&#x27;ringo&#x27;</li>
+      <li>Error
+    </ol><br><br>Q4) beatles[-1]<br><br>
+    <ol start="1" class="number">
+      <li>&#x27;john&#x27;***</li>
+      <li>&#x27;paul&#x27;*</li>
+      <li>&#x27;george&#x27;*</li>
+      <li>&#x27;ringo&#x27;*****</li>
+      <li>Error***
+    </ol><br>Q5) beatles[-5]<br><br>
+    <ol start="1" class="number">
+      <li>&#x27;john&#x27;*</li>
+      <li>&#x27;paul&#x27; *</li>
+      <li>&#x27;george&#x27;</li>
+      <li>&#x27;ringo&#x27;***</li>
+      <li>Error*******
+    </ol><br><br><br>
+    <h3>Dictionaries</h3><br><code>beatles = {&#x27;john&#x27;: &#x27;guitar&#x27;, &#x27;paul&#x27;: &#x27;bass&#x27;, &#x27;george&#x27;: &#x27;guitar&#x27;, &#x27;ringo&#x27;: &#x27;drums&#x27;}</code><br><br><br>
+    <h3>for loops</h3><br>General syntax:<br><code>for item in collection:</code><br>
+    <ul class="indent">
+      <li><code>do things</code></li>
+    </ul>
+    <h3>Looping over the Beatles dictionary</h3><br><code>beatles = {&#x27;john&#x27;: &#x27;guitar&#x27;, &#x27;paul&#x27;: &#x27;bass&#x27;, &#x27;george&#x27;: &#x27;guitar&#x27;, &#x27;ringo&#x27;: &#x27;drums&#x27;}</code><br><code>for beatle,
+      instrument in beatles.items():</code><br>
+    <ul class="indent">
+      <li><code>print(beatle, &#x27;plays&#x27;, instrument)</code>
+    </ul><br><br>Places = tcp_df[&#x27;Place&#x27;]<br>Num_of_Places = pd.unique(Places)<br>len(Num_of_Places)<br><br><br><br>
+    <h3>Quantifying Data:</h3><br>
+    <h4>Notes on data description:</h4><br><br><br>Q) Create a list of unique locations found in the index data. Call it places. How many unique location are there in the data?&nbsp;<br><br><br>
+    <ol start="1" class="number">
+      <li>998</li>
+      <li>11</li>
+      <li>14</li>
+      <li>90********
+    </ol><br>Bonus: More readable suggestions<br>could you make an variable for &#x27;Place&#x27;?<br>pages seem to be split by . such as 146.98 ??? can you have 0.8 of a page?<br>all of the unnamed: 11 column are NaN expect one being 0.0?<br>what
+    does +07 mean?!<br>The output for EEBO is not helpful.<br>so the max page is 2072? not 998?<br><br>Q) how many &#x27;Unknown&#x27; Authors are there<br><br>
+    <ol start="1" class="number">
+      <li>126</li>
+      <li>30****</li>
+      <li>14</li>
+      <li>0
+    </ol><br><br>
+    <h4>Sermons</h4><br><code>is_a_sermon = tcp_df[&#x27;Terms&#x27;].str.contains(&#x27;sermon&#x27;, na = False)</code><br><code>tcp_df[is_a_sermon]</code><br><code>pamphlets = tcp_df[&#x27;Page Count&#x27;] &lt; 10</code><br><code>missing_terms =
+      tcp_df[terms&#x27;].isna()</code><br><code>tcp_df[missing_terms]</code><br><br><code>author_is_unknown = tcp_df[&#x27;Author&#x27;].isna()</code><br><code>tcp_df[author_is_unknown].count()</code><br><br>
+    <h2>Workflow and Automation</h2><br><br>Alex is analysing Virginia Woolf&#x27;s To the Lighthouse. They wish to extract all mentions of the lighthouse and surrounding context using python<br><br>How many problems?<br>sorry what do you mean by a
+    problem?&nbsp;<br>do you mean all mentions in the entire spreadsheet?<br>Does one &#x27;mention&#x27; here means a sentence?<br><br>1) **<br>5)******<br>15)**<br>25)<br><br>
+    <h3>Sentiment Analysis Example</h3><br><code>import urllib.request, urllib.error, urllib.parse, pprint</code><br><code>url = &quot;http:&#x2F;&#x2F;gutenberg.net.au&#x2F;ebooks01&#x2F;0100101.txt&quot; # a website</code><br><code>response =
+      urllib.request.urlopen(url) # this fetches information from a webpage</code><br><code>text = response.read().decode(&#x27;ASCII&#x27;) # this processes the response a bit, so it is </code><br>
+    <ul class="indent">
+      <li>
+        <ul class="indent">
+          <li>
+            <ul class="indent">
+              <li>
+                <ul class="indent">
+                  <li>
+                    <ul class="indent">
+                      <li>
+                        <ul class="indent">
+                          <li>
+                            <ul class="indent">
+                              <li>
+                                <ul class="indent">
+                                  <li>
+                                    <ul class="indent">
+                                      <li>
+                                        <ul class="indent">
+                                          <li>
+                                            <ul class="indent">
+                                              <li>
+                                                <ul class="indent">
+                                                  <li>
+                                                    <ul class="indent">
+                                                      <li>
+                                                        <ul class="indent">
+                                                          <li>
+                                                            <ul class="indent">
+                                                              <li>
+                                                                <ul class="indent">
+                                                                  <li><code> # text, rather than binary format</code>
+                                                                </ul>
+                                                              </li>
+                                                            </ul>
+                                                          </li>
+                                                        </ul>
+                                                      </li>
+                                                    </ul>
+                                                  </li>
+                                                </ul>
+                                              </li>
+                                            </ul>
+                                          </li>
+                                        </ul>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul><br><code>text[0:100] # to see a small portion</code><br><code></code><br><code>text.split()[0:10] # splits the text on whitespace characters</code><br><br><code>words = text.split() # create a list of all words</code><br><br><code># prints
+      each word if the word is Lighthouse</code><br><code>for word in words:</code><br>
+    <ul class="indent">
+      <li><code>if word == &#x27;Lighthouse&#x27;:</code>
+        <ul class="indent">
+          <li><code>print(word)</code></li>
+        </ul>
+      </li>
+    </ul><code># prints the word and its index for each occurrence of Lighthouse</code><br><code>for index, word in enumerate(words):</code><br>
+    <ul class="indent">
+      <li><code>if word == &#x27;Lighthouse&#x27;:</code>
+        <ul class="indent">
+          <li><code>print(index, word)</code></li>
+        </ul>
+      </li>
+    </ul><code># A different way to use this information</code><br><code>for index, word in enumerate(words):</code><br>
+    <ul class="indent">
+      <li><code>if word == &#x27;Lighthouse&#x27;:</code>
+        <ul class="indent">
+          <li><code>print(words[index])</code></li>
+        </ul>
+      </li>
+    </ul><code># Grabbing some context around each occurrence of Lighthouse</code><br><code>for index, word in enumerate(words):</code><br>
+    <ul class="indent">
+      <li><code>if word == &#x27;Lighthouse&#x27;:</code>
+        <ul class="indent">
+          <li><code>print(words[index - 1:index + 2])</code></li>
+        </ul>
+      </li>
+    </ul><code># Collecting the bits of text</code><br><code>lighthouse = []</code><br><br><code>for index, word in enumerate(words):</code><br>
+    <ul class="indent">
+      <li><code>if word == &#x27;Lighthouse&#x27;:</code>
+        <ul class="indent">
+          <li><code>lighthouse.append(words[index - 4:index + 5])</code></li>
+        </ul>
+      </li>
+    </ul>
+    <h3>Normalising text</h3><br><code>&quot;Hello&quot;.lower()</code><br><code>&quot;Hello&quot;.upper()</code><br><br><code># Collecting the bits of text (gets both capitalised and non-capitalised occurrences)</code><br><code>lighthouse =
+      []</code><br><br><code>for index, word in enumerate(words):</code><br>
+    <ul class="indent">
+      <li><code>if word.lower() == &#x27;lighthouse&#x27;:</code>
+        <ul class="indent">
+          <li><code>lighthouse.append(words[index - 4:index + 5])</code>
+        </ul>
+      </li>
+    </ul><br><code>for phrase in lighthouse:</code><br>
+    <ul class="indent">
+      <li><code>print(phrase)</code>
+    </ul><br><br>
+    <h3>Grand Solution w&#x2F; Pretty Printing</h3><br><code>import urllib.request, urllib.error, urllib.parse, pprint</code><br><code></code><br><code>url =
+      &quot;http:&#x2F;&#x2F;gutenberg.net.au&#x2F;ebooks01&#x2F;0100101.txt&quot;</code><br><code>response = urllib.request.urlopen(url)</code><br><code>text = response.read()</code><br><code>words = [word.decode(&#x27;ASCII&#x27;) for word in
+      text.split()]</code><br><code></code><br><code>lighthouse = []</code><br><code></code><br><code>for index, word in enumerate(words):</code><br><code> if &#x27;lighthouse&#x27; in word.lower():</code><br><code> if &#x27;Virginia&#x27; not in
+      words[index - 3:index + 4]:</code><br><code> lighthouse.append(&quot; &quot;.join(words[index - 3:index + 4])) </code><br><code> </code><br><code>max_characters = max([s.find(&#x27;Lighthouse&#x27;) for s in
+      lighthouse])</code><br><code></code><br><code>for phrase in lighthouse:</code><br><code> pad = max_characters - phrase.find(&#x27;Lighthouse&#x27;)</code><br><code> print(&quot; &quot; * pad, phrase)</code><br><br>
+    <h2>Feedback</h2><br>
+    <h2></h2><br>
+    <h3>Pro</h3><br>Really good examples, nicely explained&nbsp; - just needs comments explaining each step&#x2F;what leach line is doing to digest the syntax a bit more. Think illustrated pdf&#x2F;slides&#x2F;videos may help during and definitely
+    post session so attendees can follow&#x2F;catchup at own pace&nbsp;&nbsp;<br>Great first day (of Python) with an initial explanation of functions&#x2F;commands and then going on to a more complex problem to solve. I had an introduction to Python
+    before and worked with R a bit. It was easy to follow and I leart a lot.<br>I wish my undergrad Computing course was as good as this. Great material and great teaching.<br><br>
+    <h3>Con</h3><br>Not really a con. At the beginning, there are no codes to refer to (directly copy and paste), but in the later part, one helper solved this problem!&nbsp;<br>Just a suggestion when asking how many problems, ask how many steps
+    instead?<br><br>
+    <h2>Day 3</h2><br>
+    <h3>Python</h3><br><br><code>def function():</code><br>
+    <ul class="indent">
+      <li><code>yada yada yada</code></li>
+    </ul><code>def function():</code><br>
+    <ul class="indent">
+      <li><code>taradidledidleda</code></li>
+    </ul><br>
+    <h3>Noteable</h3><br><a href="https&#x3a;&#x2F;&#x2F;noteable&#x2e;edina&#x2e;ac&#x2e;uk&#x2F;login&#x2F;" rel="noreferrer noopener">https:&#x2F;&#x2F;noteable.edina.ac.uk&#x2F;login&#x2F;</a><br><br>
+    <h3>Jupyter Notebook Shortcuts</h3><br><br><code>| Function | mac | windows |</code><br><code>| -------------------------- | ---- | ------------ |</code><br><code>| Run Cells | ⌘+⏎ | CTRL+ENTER |</code><br><code>| Run Cells and Select Below | ⇧+⏎
+      | SHIFT+ENTER |</code><br><code>| Run Cells and Insert Below | ⌥+⏎ | ALT+ENTER |</code><br><code>| Toggle Line Numbers | ⇧+L | SHIFT+L |</code><br><code>| New Cell Above | a | a |</code><br><code>| New Cell Below | b | b |</code><br><code>|
+      Delete Cell | d d | d d |</code><br><br><br>
+    <h3>Bokeh</h3><br><a href="https&#x3a;&#x2F;&#x2F;docs&#x2e;bokeh&#x2e;org&#x2F;en&#x2F;latest&#x2F;docs&#x2F;reference&#x2F;plotting&#x2e;html&#x3f;highlight&#x3d;y&#x5f;axis&#x5f;label&#x23;bokeh&#x2e;plotting&#x2e;figure"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;docs.bokeh.org&#x2F;en&#x2F;latest&#x2F;docs&#x2F;reference&#x2F;plotting.html?highlight=y_axis_label#bokeh.plotting.figure</a><br><code></code><br><code>from bokeh.plotting import figure,
+      output_file, show, save </code><br><code>from bokeh.io import output_notebook </code><br><code>import pandas as pd </code><br><code>output_notebook() </code><br><code></code><br><code># create a space to hold our plots</code><br><code>line_plot
+      = figure(plot_width 600, plot_height = 400)</code><br><code></code><br><code># create some data for the points</code><br><code>x = [0, 1, 2, 3]</code><br><code>y1 = [101, 60, 80, 10]</code><br><code>y2 = [50, 43, 72,
+      1]</code><br><code></code><br><code># add lines to our line_plot figure object</code><br><code>line_plot.line(x, y1)</code><br><code>line_plot.line(x, y2)</code><br><code></code><br><code># add circular emphasis points on the points from
+      y1</code><br><code>line_plot.circle(x, y1)</code><br><br><code># tells the notebook to display the line_plot figure</code><br><code>show(line_plot)</code><br><code></code><br><code></code><br>
+    <h3>Generating some data automatically</h3><br><code></code><br># range will produce a list of numbers, but it doesn&#x27;t just create it<br># instead, it returns the next number in the range when you need it, saving memory for large
+    ranges<br><code>range(10) </code><br><br><code># Remember this does not include the end number: </code><br><code>for number in range(10): </code><br>
+    <ul class="indent">
+      <li><code>print(number) </code>
+    </ul><code></code><br><code>for number in range(42, 51): </code><br>
+    <ul class="indent">
+      <li><code>print(number)</code>
+    </ul><br><code># create a new figure for our new plot </code><br><code>big_plot = figure(plot_width = 400, plot_height = 400) </code><br><code></code><br><code># create some data </code><br><code>x = range(0, 100) </code><br><code>y = x
+    </code><br><code></code><br><code># creating more data, the -1 tells it the steps should be decreasing </code><br><code># the default is for it to increase </code><br><code>y2 = range(100, 0, -1) </code><br><code></code><br><code># add the lines
+      to the new figure </code><br><code>big_plot.line(x, y) </code><br><code>big_plot.circle(x, y2) </code><br><code></code><br><code># show the new figure </code><br><code>show(big_plot)
+    </code><br><code></code><br><code></code><br><code></code><br><code></code><br><code>import pandas as pd </code><br><code>from bokeh.plotting import save </code><br><code># this line will not work if you are not in the same place as the
+    </code><br><code># &quot;eebo.csv&quot; file from yesterday </code><br><code>data_frame = pd.read-csv(&quot;eebo.csv&quot;) </code><br><br><code># create some variables with interesting data </code><br><code>y = data_frame[&#x27;Page Count&#x27;]
+    </code><br><code># x = range(0, len(y)) </code><br><code>x = data_frame[&#x27;Date&#x27;] </code><br><br><code># create a figure object to hold our new plot </code><br><code>page_plot = figure(plot_height = 400, plot_width = 400)
+    </code><br><br><code># add a line with circular dots to our new figure </code><br><code>page_plot.circle(x, y) </code><br><code></code><br><code># show the new figure </code><br><code>show(page_plot)
+    </code><br><code></code><br><code></code><br><code>output_file(&quot;date-page-scatter.html&quot;) </code><br><code>save(page_plot)</code><br><code></code><br><code></code><br>
+    <h3>Going back to the first example</h3><br><code># We can change some formatting things to make code easier to read </code><br><br><code>from bokeh.plotting import figure, output_file, show save </code><br><code>from bokeh.io import
+      output_notebook </code><br><code>import pandas as pd </code><br><code>output_notebook() </code><br><code></code><br><code># adds functionality so you can &#x27;inspect&#x27; individual points in the finished plot </code><br><code>TOOLTIPS =
+      [</code><br>
+    <ul class="indent">
+      <li>
+        <ul class="indent">
+          <li><code> (&quot;index&quot;, &quot;$index&quot;), </code></li>
+          <li><code> (&quot;(x, y)&quot;, &quot;($x, $y)&quot; </code>
+        </ul>
+      </li>
+    </ul><code>] </code><br><br><code># create a space to hold our plots </code><br><code># this function call is now split over several lines, making it easier to read </code><br><code>line_plot = figure(plot_width 600, </code><br>
+    <ul class="indent">
+      <li>
+        <ul class="indent">
+          <li>
+            <ul class="indent">
+              <li>
+                <ul class="indent">
+                  <li>
+                    <ul class="indent">
+                      <li>
+                        <ul class="indent">
+                          <li>
+                            <ul class="indent">
+                              <li><code> plot_height = 400, </code></li>
+                              <li><code> title = &quot;Two Lines&quot;, </code></li>
+                              <li><code> x_axis_label = &quot;No. Cats in Scotland&quot;, </code></li>
+                              <li><code> y_axis_label = &quot;Avg Price of Cheese (£)&quot;</code></li>
+                              <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tooltips = TOOLTIPS)&nbsp;
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul><code></code><br><code># create some data for the points </code><br><code>x = [0, 1, 2, 3] </code><br><code>y1 = [101, 60, 80, 10] </code><br><code>y2 = [50, 43, 72, 1] </code><br><code></code><br><code># add lines to our line_plot figure
+      object </code><br><code>line_plot.line(x, y1, line_color = &quot;orange&quot;, legend_label = &quot;Croatia&quot;) </code><br><code>line_plot.line(x, y2, legend_label = &quot;Germany&quot;) </code><br><code></code><br><code># add circular
+      emphasis points on the points from y1 </code><br><code>line_plot.circle(x, y1, line_color = &quot;red&quot;) </code><br><br><code># tells the notebook to display the line_plot figure </code><br><code>show(line_plot)
+    </code><br><code></code><br><code></code><br>
+    <h3>Plotting a sine wave </h3><br>from math import sin&nbsp;<br><br><code># create a figure to hold our sine plot</code><br><code>plot_sine = figure(plot_width = 400, plot_height = 400) </code><br><code># doesn&#x27;t work, yet
+    </code><br><code>sin(1)</code><br><code></code><br># create some data and an empty list to store sine values&nbsp;<br><code>x = range(100) </code><br><code>sine_wave = [] </code><br><br><code># add sine values to our empty list, one-at-a-time
+    </code><br><code>for number in x: </code><br>
+    <ul class="indent">
+      <li><code>sine_wave.append(sin(number &#x2F; 25)) </code></li>
+    </ul><code># plot the sine wave with circles, and display it</code><br><code>plot_sine.circle(x, sine_wave) </code><br><code>show(plot_sine) </code><br><br><code>*********************************************************** </code><br><code># new
+      version, written as a function</code><br>&nbsp;&nbsp;<br><code>from math import sin </code><br><code></code><br><code># define a function to plot sine waves </code><br><code>def plot_sine_wave(freq, sample_rate):</code><br><code></code><br>
+    <ul class="indent">
+      <li><code>plot_sine = figure(plot_width = 400, plot_height = 400) </code></li>
+      <li><code>x = range(sample_rate)</code></li>
+      <li><code>sine_wave = [] </code></li>
+      <li><code>two_pi = 2 * 3.141592653 </code></li>
+      <li><code></code></li>
+      <li><code>for number in x:</code>
+        <ul class="indent">
+          <li><code>sine_wave.append(sin(two_pi * freq * number &#x2F; sample_rate))</code></li>
+          <li><code></code>
+        </ul>
+      <li><code>plot-sine.circle(x, sine_wave) </code></li>
+      <li><code>show(plot_sine)</code>
+    </ul><code></code><br><br># plot some sine waves using our function&nbsp;<br><code>plot_sine_wave(3, 100) </code><br><br><br>
+    <h3>Additional - Markdown</h3><br><br><a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;adam&#x2d;p&#x2F;markdown&#x2d;here&#x2F;wiki&#x2F;Markdown&#x2d;Cheatsheet"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;github.com&#x2F;adam-p&#x2F;markdown-here&#x2F;wiki&#x2F;Markdown-Cheatsheet</a><br><code></code><br><code></code><br><code></code><br><br><code></code><br><br><br>
+    <h2>Feedback</h2><br>
+    <h3>Pro </h3><br>really well explained why we would want to use certain libraries and demonstrating the power of the tools e.g. Bokeh. Clear that Matthew is curious about all aspects of Python and that really translated!<br>Extremely helpful day
+    3, both creating figures with Python and looking at spreadsheets with SQL. Both was new to me and I now feel confident using both (on a basic level) and exploring more. It was great to get links to cheat sheets for looking up things in the future
+    and training more.<br><br>
+    <h3>Con</h3><br>bit quick occassionally but further explanations made this manageable<br><br>
+    <h3>SQLite</h3><br>Data: <a href="https&#x3a;&#x2F;&#x2F;github&#x2e;com&#x2F;edcarp&#x2F;2020&#x2d;11&#x2d;25&#x2d;edinburgh&#x2d;dc&#x2d;digital&#x2d;humanities&#x2F;releases&#x2F;download&#x2F;0&#x2e;1&#x2e;0&#x2F;data&#x2e;zip"
+      rel="noreferrer noopener">https:&#x2F;&#x2F;github.com&#x2F;edcarp&#x2F;2020-11-25-edinburgh-dc-digital-humanities&#x2F;releases&#x2F;download&#x2F;0.1.0&#x2F;data.zip</a><br>DB Browser: <a
+      href="https&#x3a;&#x2F;&#x2F;sqlitebrowser&#x2e;org&#x2F;dl&#x2F;" rel="noreferrer noopener">https:&#x2F;&#x2F;sqlitebrowser.org&#x2F;dl&#x2F;</a><br><br>Execute SQL query:&nbsp;<br>
+    <ul class="bullet">
+      <li>Windows&#x2F; Linux: Ctrl + Enter</li>
+      <li>Mac: Cmd + Enter
+    </ul>or press F5 on any of these OSs<br><br>SELECT Title FROM eebo;<br><br>SELECT * FROM eebo LIMIT 4;<br><br>SELECT DISTINCT Date FROM eebo;<br><br>SELECT DISTINCT Date, Title FROM eebo;<br><br>SELECT PageCount, PageCount&#x2F;10 FROM
+    eebo;<br><br>SELECT Date, PageCount, ROUND(PageCount&#x2F;100., 1) FROM eebo;&nbsp;&nbsp;&nbsp; (notice the dot after &#x27;10&#x27;, expect SQLite to return with a floating point result)<br><br>-- This is a comment line in
+    SQL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (use two dashes, sort of equivalent to the hash we&#x27;ve used in Python)<br><br>Might be a bit more visually
+    appealing writing the SQL query in the following format:<br><br>SELECT Date,&nbsp; Status<br>FROM eebo<br>WHERE Date &gt; 1600;&nbsp;&nbsp; -- Before that you may reset &#x27;Date&#x27; type to
+    INTEGER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WHERE clause or keyword is the basic SQL syntax to filter on rows<br><br><br>SELECT Status<br>FROM eebo<br>WHERE Status =&#x27;Free&#x27;;<br><br><br>SELECT
+    Date<br>FROM eebo<br>WHERE (Date &gt; = 1640) AND (Status = &#x27;Free&#x27;);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- You may consider using brackets for better readibility<br><br><br>SELECT
+    PageCount, Date, TCP, Title<br>FROM eebo<br>WHERE PageCount &gt; 75<br>ORDER BY PageCount;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- default ordering is ascending,
+    if otherwise, use the &#x27;DESC&#x27; keyword<br><br><br><br>SELECT PageCount, Date, TCP, Title<br>FROM eebo<br>WHERE PageCount &gt; 75<br>ORDER BY PageCount DESC , Date
+    DESC;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- default ordering is ascending, if otherwise, use the &#x27;DESC&#x27; keyword<br><br><br>SELECT Date, Author<br>FROM
+    eebo<br>ORDER BY Date ASC , Author ASC;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- default ordering is ascending, if otherwise, use the<br><br><br>SELECT Date<br>FROM
+    eebo<br>WHERE Date &gt; 1550<br>ORDER BY Date;<br><br><br><br><strong>Aggregating functions</strong><br><br><br>SELECT COUNT(*), COUNT(Author)<br>FROM authors;<br><br><br>SELECT
+    SUM(PageCount),&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ROUND(AVG(PageCount), 2),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    MIN(PageCount),<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MAX(PageCount)<br>FROM eebo;<br><br><br><br>SELECT Date,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    COUNT(*)<br>FROM eebo<br>GROUP BY Date;<br><br><br>SELECT Date, PageCount<br>FROM eebo<br>WHERE Date &gt;= 1600&nbsp;&nbsp;&nbsp;&nbsp; --an ad hoc WHERE clause added to illustrate the difference; WHERE is to filter ungrouped records in the data
+    table<br>GROUP BY Date<br>HAVING SUM(PageCount) &gt; 10;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- &#x27;HAVING&#x27; clause used to
+    filter groups<br><br><br><br>
+    <h2>Feedback</h2><br>
+    <h3>Pro</h3><br><br>
+    <h3>Con</h3><br>
+  </body>
+
+</html>
