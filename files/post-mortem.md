@@ -80,7 +80,7 @@
 
 - NLP example
 
-    Some kind of text analysis / Natural Languag Processing example in the official lesson would be beneficial. The NLP example appeared to go down well.
+    Some kind of text analysis / Natural Language Processing example in the official lesson would be beneficial. The NLP example appeared to go down well.
 
 ### Cons
 
@@ -88,7 +88,7 @@
 
     Lesson material jumps focussed too much without any narrative through-line or justification
 
-- add something from text analysis carp (in incubator)
+- [Add something from text analysis carp (in incubator)](http://librarycarpentry.org/lc-tdm/)
 
 - commenting code as you go
 
@@ -117,7 +117,7 @@
 
     Lesson plan could benefit from giving SQL more context, providing use-cases and examples of when it is beneficial
 
-    To help give the lesson more context ther should be
+    To help give the lesson more context there should be
 
     - A stronger narrative through-line
     - A data set with from a relevant project or use-case in mind, potentially [Gapminder](http://www.gapminder.org)
